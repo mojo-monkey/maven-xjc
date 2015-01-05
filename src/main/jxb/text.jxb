@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+xmlns:annox="http://annox.java.net"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+jxb:extensionBindingPrefixes="annox"
+jxb:version="2.1">
+
+<jxb:bindings schemaLocation="text.xsd">
+    <jxb:bindings node="/xs:schema/xs:complexType/xs:sequence/xs:element[@name='id']">
+
+         <annox:annotate>
+            <annox:annotate annox:class="java.lang.SuppressWarnings" value=""/>
+         </annox:annotate>
+
+    </jxb:bindings>
+</jxb:bindings>
+</jxb:bindings>
