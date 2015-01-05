@@ -9,7 +9,7 @@
         <xs:sequence>
             <xs:element name="id" type="xs:string"/>
 
-            <xs:element name="timmy" type="xs:string"/>
+            <xs:element name="value" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
 
